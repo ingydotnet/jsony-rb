@@ -1,0 +1,18 @@
+PATH
+  remote: .
+  specs:
+    jsony (0.0.1)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    pegex (0.0.1)
+    testml-lite (0.0.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  jsony!
+  pegex
+  testml-lite (>= 0.0.1)
