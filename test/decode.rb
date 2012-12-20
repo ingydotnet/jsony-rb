@@ -36,6 +36,7 @@ baz
 --- json: [ "foo", 3, "bar" ]
 
 === Specials
+--- SKIP
 --- jsony: one true two false three null
 --- json: [ "one", true, "two", false, "three", null ]
 

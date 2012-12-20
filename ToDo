@@ -1,0 +1,9 @@
+- Port remainder of tests
+- Support null
+  - Need to suupport return value of nil in pegex-rb
+- Use jsony-tml repo
+  - Submodule?
+- Use jsony-pgx repo
+  - Submodule?
+- Add submodule init to Rakefile
+- Add git-pull task to Rakefile

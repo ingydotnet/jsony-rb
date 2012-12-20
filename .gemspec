@@ -18,6 +18,6 @@ JSONY lets you omit a lot of the syntax that makes JSON a pain to write.
 
   gem.files = `git ls-files`.lines.map{|l|l.chomp}
 
+  gem.add_dependency 'pegex', '>= 0.0.2'
   gem.add_development_dependency 'testml-lite', '>= 0.0.1'
-  gem.add_development_dependency 'pegex'
 end

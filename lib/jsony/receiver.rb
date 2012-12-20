@@ -6,7 +6,7 @@ class JSONY::Receiver < Pegex::Tree
   end
 
   def got_top_map got
-    got_map got
+    got_map [got]
   end
 
   def got_seq got
@@ -14,7 +14,7 @@ class JSONY::Receiver < Pegex::Tree
   end
 
   def got_map got
-    Hash[got]
+    Hash[got[0]]
   end
 
   def got_string got

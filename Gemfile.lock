@@ -2,11 +2,12 @@ PATH
   remote: .
   specs:
     jsony (0.0.1)
+      pegex (>= 0.0.2)
 
 GEM
   remote: https://rubygems.org/
   specs:
-    pegex (0.0.1)
+    pegex (0.0.2)
     testml-lite (0.0.1)
 
 PLATFORMS
@@ -14,5 +15,4 @@ PLATFORMS
 
 DEPENDENCIES
   jsony!
-  pegex
   testml-lite (>= 0.0.1)
