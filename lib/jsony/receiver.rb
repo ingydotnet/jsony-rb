@@ -28,8 +28,7 @@ class JSONY::Receiver < Pegex::Tree
     when 'false'
       false
     when 'null'
-      'fake-nil'
-      # TODO golf this \ if possible
+      Pegex::Constant::Null
     when \
       /^(
         -?

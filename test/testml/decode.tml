@@ -1,21 +1,10 @@
-require './test/lib/test_helper'
+%TestML 0.1.0
 
-TestML.run do |t|
-  # Make sure the JSONY parses to what we expect:
-  t.eval '*jsony.jsony_load.String == *json.json_load.String'
+# Make sure the JSONY parses to what we expect:
+*jsony.jsony_decode.yaml == *json.json_decode.yaml
 
-  # Make sure JSONY parses the JSON form the same as a JSON parser:
-  t.eval '*json.jsony_load.String == *json.json_load.String'
-end
-
-TestML.data <<'.'
-#%TestML 1.0
-#
-## Make sure the JSONY parses to what we expect:
-#*jsony.jsony_load.String == *json.json_load.String;
-#
-## Make sure JSONY parses the JSON form the same as a JSON parser:
-#*json.jsony_load.String == *json.json_load.String;
+# Make sure JSONY parses the JSON form the same as a JSON parser:
+*json.jsony_decode.yaml == *json.json_decode.yaml
 
 === String splitting 1
 --- jsony: foo bar baz
@@ -173,4 +162,4 @@ baz: 42
 - foo bar
 - foo bar
 --- json: [["foo", "bar"],["foo", "bar"]]
-.
+
