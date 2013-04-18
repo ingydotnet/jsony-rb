@@ -23,7 +23,7 @@ class JSONY::Receiver < Pegex::Tree
 
   def got_bare got
     case got
-    when 'true' # XXX is it a bug in jsony-pm that it's unanchored
+    when 'true'
       true
     when 'false'
       false
