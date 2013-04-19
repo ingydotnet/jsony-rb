@@ -2,7 +2,7 @@
 
 GemSpec = Gem::Specification.new do |gem|
   gem.name = 'jsony'
-  gem.version = '0.0.1'
+  gem.version = '0.0.2'
   gem.license = 'MIT'
   gem.required_ruby_version = '>= 1.9.1'
 
@@ -18,6 +18,6 @@ JSONY lets you omit a lot of the syntax that makes JSON a pain to write.
 
   gem.files = `git ls-files`.lines.map{|l|l.chomp}
 
-  gem.add_dependency 'pegex', '>= 0.0.2'
-  gem.add_development_dependency 'testml-lite', '>= 0.0.1'
+  gem.add_dependency 'pegex', '>= 0.0.3'
+  gem.add_development_dependency 'testml', '>= 0.0.2'
 end
