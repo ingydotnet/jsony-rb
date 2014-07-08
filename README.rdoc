@@ -8,7 +8,7 @@
 
 = Description
 
-JSONY is a data language that is simlar to JSON, just more chill. All valid
+JSONY is a data language that is similar to JSON, just more chill. All valid
 JSON is also valid JSONY (and represents the same thing when loaded), but
 JSONY lets you omit a lot of the syntax that makes JSON a pain to write.
 
